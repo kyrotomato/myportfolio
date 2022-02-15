@@ -24,3 +24,59 @@ height: 150px;
 width: 300px;
 }
 /*header styles end*/
+/*project style*/
+main{
+    display:flex;
+    width: 80%;
+    margin: auto;
+    
+    
+}
+main1{
+    display:flex;
+    width: 80%;
+    margin: auto;
+    
+}
+aside{
+    width: auto;
+    width: 90%;
+    margin-top: 10px;
+}
+main > section{
+    width: 70%;
+    background-color: darkblue;
+    border: black 3px solid;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.projects{
+    display:flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 60%;
+    justify-content: center;
+}
+.projects section{
+    width: calc(50% - 20px);
+    margin: 10px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.color, .mainproject h1{
+    color: white;
+}
+.projects .mainproject{
+    width: 50%;
+}
+.projects img{
+    width: 65%;
+    height: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 25%;
+}
+/*project end*/
