@@ -106,3 +106,42 @@ main > section{
     border-radius: 25%;
 }
 /*about me end*/
+/*body style*/
+html{
+    background-size: cover;
+    background-position: center;
+}
+.contact{
+    margin-top: 0;
+}
+.contact li{
+    display: inline-block;
+    margin-right: 50px;
+}
+.contact ul li a{
+    color:white;
+    font-size: 20;
+    text-decoration: none;
+}
+.contact ul li a:hover{
+    color:yellow;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: darkblue;
+    border: black solid 1px;
+}
+footer #tag{
+    color:white;
+    width: 90%;
+}
+footer .contact{
+    float: right;
+    background-color: darkblue;
+}
+footer tm{
+color: white;
+}
+/*body style end*/
