@@ -80,3 +80,29 @@ main > section{
     border-radius: 25%;
 }
 /*project end*/
+/*about me*/
+.aboutme{
+    background-color: darkblue;
+    color:white;
+    padding-left: 20px;
+    border: black solid 3px;
+}
+.aboutme article{
+    width: 100%;
+    font-size: 30;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    padding-left: 10px;
+
+}
+.aboutme h1{
+    display: inline;
+}
+#selfie{
+    float: left;
+    background-color: red;
+    display:inline;
+    border-radius: 25%;
+}
+/*about me end*/
