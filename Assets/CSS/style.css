@@ -79,6 +79,11 @@ main > section{
     flex-wrap: wrap;
     border-radius: 25%;
 }
+.color {
+    display: flex;
+    flex-direction: wrap;
+}
+
 /*project end*/
 /*about me*/
 .aboutme{
