@@ -93,12 +93,12 @@ main > section{
 }
 .color, .mainproject h1{
     color: white;
+    text-align: center;
 }
 .projects .mainproject{
     width: 50%;
 }
 .projects img{
-    width: 65%;
     height: 170px;
     display: flex;
     flex-wrap: wrap;
