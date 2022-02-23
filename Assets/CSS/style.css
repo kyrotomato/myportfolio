@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+}
 body{
     background-image: linear-gradient(blue, cyan);
 }
@@ -41,7 +44,6 @@ nav li{
 }
 nav ul li a{
     color:white;
-    text-decoration: none;
     transform: uppercase;
 
 }
@@ -58,7 +60,7 @@ main{
     
 }
 main1{
-    display:flex;
+    display:column;
     width: 80%;
     margin: auto;
     
@@ -94,6 +96,10 @@ main > section{
 .color, .mainproject h1{
     color: white;
     text-align: center;
+
+}
+.color, .mainproject h1:hover{
+    color: yellow;
 }
 .projects .mainproject{
     width: 50%;
@@ -103,6 +109,7 @@ main > section{
     display: flex;
     flex-wrap: wrap;
     border-radius: 25%;
+    border: solid black 5px;
 }
 .color {
     display: flex;
@@ -133,7 +140,6 @@ main > section{
     float: left;
     display:inline;
     border-radius: 25%;
-    height: 50%;
 }
 /*about me end*/
 /*body style*/
